@@ -1,0 +1,575 @@
+v 20130925 2
+N 41200 41800 43900 41800 4
+{
+T 43300 41900 5 10 1 1 0 6 1
+netname=Posn_sensor1
+}
+N 42000 41300 43900 41300 4
+{
+T 43900 41400 5 10 1 1 0 6 1
+netname=Arduino_Posn_sensor1
+}
+N 40800 42800 43900 42800 4
+{
+T 43200 42900 5 10 1 1 0 6 1
+netname=Posn_sensor2
+}
+N 41800 42300 43900 42300 4
+{
+T 43700 42400 5 10 1 1 0 6 1
+netname=Arduino_Posn_sensor2
+}
+N 40400 43800 43900 43800 4
+{
+T 41900 43800 5 10 1 1 0 0 1
+netname=SwitchX
+}
+N 41700 43300 43900 43300 4
+{
+T 42000 43300 5 10 1 1 0 0 1
+netname=Arduino_SwitchX
+}
+C 49200 42900 1 90 0 capacitor-1.sym
+{
+T 48500 43100 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49400 43600 5 10 1 1 180 0 1
+refdes=C10
+T 48300 43100 5 10 0 0 90 0 1
+symversion=0.1
+T 49000 43600 5 10 1 1 180 0 1
+value=0.1uF
+T 49200 42900 5 10 0 0 0 0 1
+footprint=0805
+}
+N 46000 43800 49000 43800 4
+{
+T 46000 43800 5 10 0 1 0 0 1
+netname=Vcc3v3
+}
+N 49000 43600 49000 44300 4
+{
+T 49100 44100 5 10 1 1 0 0 1
+netname=Vcc5v
+}
+C 48900 42600 1 0 0 gnd-1.sym
+C 43800 40500 1 0 0 gnd-1.sym
+N 48200 41300 46000 41300 4
+{
+T 46000 41400 5 10 1 1 0 0 1
+netname=Rotary_switch
+}
+N 47700 40800 46000 40800 4
+{
+T 46000 40900 5 10 1 1 0 0 1
+netname=Arduino_Rotary_switch
+}
+N 48500 42300 46000 42300 4
+{
+T 46200 42300 5 10 1 1 0 0 1
+netname=Encoder_A
+}
+N 47900 41800 46000 41800 4
+{
+T 46100 41900 5 10 1 1 0 0 1
+netname=Arduino_Encoder_A
+}
+N 48700 43300 46000 43300 4
+{
+T 46200 43300 5 10 1 1 0 0 1
+netname=Encoder_B
+}
+N 47700 42800 46000 42800 4
+{
+T 46100 42900 5 10 1 1 0 0 1
+netname=Arduino_Encoder_B
+}
+C 30600 47100 1 0 0 connector8-1.sym
+{
+T 30700 50300 5 10 0 0 0 0 1
+device=CONNECTOR_8
+T 30600 49700 5 10 1 1 0 0 1
+refdes=uno_conn_1
+T 30600 47100 5 10 0 0 180 6 1
+footprint=ard_conn_8
+T 30300 47400 5 10 1 1 180 6 1
+pinlabel=Vin
+T 30200 47700 5 10 1 1 180 6 1
+pinlabel=GND
+T 30200 48000 5 10 1 1 180 6 1
+pinlabel=GND
+T 30400 48300 5 10 1 1 180 6 1
+pinlabel=5v
+T 30300 48600 5 10 1 1 180 6 1
+pinlabel=3v3
+}
+C 54500 49600 1 180 0 connector10-1.sym
+{
+T 52600 46600 5 10 0 0 180 0 1
+device=CONNECTOR_10
+T 54400 49900 5 10 1 1 180 0 1
+refdes=uno_conn_5
+T 54500 49600 5 10 0 1 180 0 1
+footprint=ard_conn_10
+T 54700 46800 5 10 1 1 180 0 1
+pinlabel=8
+T 54800 47100 5 10 1 1 180 0 1
+pinlabel=9^
+T 54800 47400 5 10 1 1 180 0 1
+pinlabel=10^
+T 55100 47700 5 10 1 1 180 0 1
+pinlabel=MOSI^
+T 55000 48000 5 10 1 1 180 0 1
+pinlabel=MISO
+T 54600 48100 5 10 1 1 0 0 1
+pinlabel=SCK
+T 54600 49300 5 10 1 1 0 0 1
+pinlabel=SCL1
+T 54600 49000 5 10 1 1 0 0 1
+pinlabel=SDA1
+T 54600 48700 5 10 1 1 0 0 1
+pinlabel=AREF
+T 54600 48400 5 10 1 1 0 0 1
+pinlabel=GND
+}
+C 54400 45400 1 180 0 connector8-1.sym
+{
+T 54300 42200 5 10 0 0 180 0 1
+device=CONNECTOR_8
+T 53400 45500 5 10 1 1 0 0 1
+refdes=uno_conn_6
+T 54400 45400 5 10 0 1 180 0 1
+footprint=ard_conn_8
+T 54600 44000 5 10 1 1 180 0 1
+pinlabel=3^
+T 54500 44300 5 10 1 1 180 0 1
+pinlabel=4
+T 54600 44600 5 10 1 1 180 0 1
+pinlabel=5^
+T 54600 44900 5 10 1 1 180 0 1
+pinlabel=6^
+T 54500 45200 5 10 1 1 180 0 1
+pinlabel=7
+T 54500 43700 5 10 1 1 180 0 1
+pinlabel=2
+}
+N 52700 44900 50200 44900 4
+{
+T 50600 44900 5 10 1 1 0 0 1
+netname=Arduino_motor_ctrl1
+}
+N 52800 47300 50600 47300 4
+{
+T 50700 47300 5 10 1 1 0 0 1
+netname=Arduino_ok_led
+}
+N 32300 47900 33600 47900 4
+{
+T 33200 47900 5 10 1 1 0 0 1
+netname=GND
+}
+N 32300 48200 33700 48200 4
+{
+T 32800 48200 5 10 1 1 0 0 1
+netname=Vcc5v_ard
+}
+N 32300 47300 33700 47300 4
+{
+T 32800 47300 5 10 1 1 0 0 1
+netname=Arduino_vin
+}
+N 32300 44900 34500 44900 4
+{
+T 32400 44900 5 10 1 1 0 0 1
+netname=Arduino_Rotary_switch
+}
+N 50600 47900 52800 47900 4
+{
+T 50700 47900 5 10 1 1 0 0 1
+netname=Arduino_SwitchX
+}
+N 50600 46700 52800 46700 4
+{
+T 50700 46700 5 10 1 1 0 0 1
+netname=Arduino_Posn_sensor2
+}
+N 50200 45200 52700 45200 4
+{
+T 50600 45200 5 10 1 1 0 0 1
+netname=Arduino_Posn_sensor1
+}
+N 50200 44000 52700 44000 4
+{
+T 50600 44000 5 10 1 1 0 0 1
+netname=Arduino_motor_reset
+}
+N 50200 43700 52700 43700 4
+{
+T 50600 43700 5 10 1 1 0 0 1
+netname=Arduino_buz_mute
+}
+N 50200 44300 52700 44300 4
+{
+T 50600 44300 5 10 1 1 0 0 1
+netname=Arduino_motor_fault
+}
+N 32300 44600 34500 44600 4
+{
+T 32400 44600 5 10 1 1 0 0 1
+netname=Arduino_Encoder_A
+}
+N 52700 44600 50200 44600 4
+{
+T 50600 44600 5 10 1 1 0 0 1
+netname=Arduino_motor_ctrl2
+}
+N 32300 44300 34500 44300 4
+{
+T 32400 44300 5 10 1 1 0 0 1
+netname=Arduino_Encoder_B
+}
+N 32300 47600 33600 47600 4
+{
+T 33200 47600 5 10 1 1 0 0 1
+netname=GND
+}
+C 48200 42300 1 270 0 capacitor-1.sym
+{
+T 48900 42100 5 10 0 0 270 0 1
+device=CAPACITOR
+T 48000 41600 5 10 1 1 0 0 1
+refdes=C11
+T 49100 42100 5 10 0 0 270 0 1
+symversion=0.1
+T 48500 41600 5 10 1 1 0 0 1
+value=0.1uF
+T 48200 42300 5 10 0 0 180 0 1
+footprint=0805
+}
+C 48300 41000 1 0 0 gnd-1.sym
+C 41200 41800 1 270 0 capacitor-1.sym
+{
+T 41900 41600 5 10 0 0 270 0 1
+device=CAPACITOR
+T 41000 41100 5 10 1 1 0 0 1
+refdes=C8
+T 42100 41600 5 10 0 0 270 0 1
+symversion=0.1
+T 41400 41100 5 10 1 1 0 0 1
+value=0.1uF
+T 41200 41800 5 10 0 0 180 0 1
+footprint=0805
+}
+C 41300 40500 1 0 0 gnd-1.sym
+C 40900 41600 1 0 0 gnd-1.sym
+C 40300 43800 1 270 0 capacitor-1.sym
+{
+T 41000 43600 5 10 0 0 270 0 1
+device=CAPACITOR
+T 40100 43100 5 10 1 1 0 0 1
+refdes=C6
+T 41200 43600 5 10 0 0 270 0 1
+symversion=0.1
+T 40500 43100 5 10 1 1 0 0 1
+value=0.1uF
+T 40300 43800 5 10 0 0 180 0 1
+footprint=0805
+}
+C 40400 42600 1 0 0 gnd-1.sym
+C 40800 42800 1 270 0 capacitor-1.sym
+{
+T 40600 42100 5 10 1 1 0 0 1
+refdes=C7
+T 41000 42100 5 10 1 1 0 0 1
+value=0.1uF
+T 41500 42600 5 10 0 0 270 0 1
+device=CAPACITOR
+T 41700 42600 5 10 0 0 270 0 1
+symversion=0.1
+T 40800 42800 5 10 0 0 180 0 1
+footprint=0805
+}
+C 48400 43300 1 270 0 capacitor-1.sym
+{
+T 49100 43100 5 10 0 0 270 0 1
+device=CAPACITOR
+T 49300 43100 5 10 0 0 270 0 1
+symversion=0.1
+T 48400 43300 5 10 0 0 180 0 1
+footprint=0805
+T 48200 42600 5 10 1 1 0 0 1
+refdes=C9
+T 48600 42600 5 10 1 1 0 0 1
+value=0.1uF
+}
+C 48500 42100 1 0 0 gnd-1.sym
+N 48400 41300 48400 41400 4
+N 47500 38200 49700 38200 4
+{
+T 47600 38200 5 10 1 1 0 0 1
+netname=Arduino_vin
+}
+N 39700 37300 42200 37300 4
+{
+T 39900 37300 5 10 1 1 0 0 1
+netname=GND
+}
+N 39700 38200 42200 38200 4
+{
+T 39900 38200 5 10 1 1 0 0 1
+netname=TXD
+}
+N 39700 37900 42200 37900 4
+{
+T 39900 37900 5 10 1 1 0 0 1
+netname=RXD
+}
+N 47500 37900 50000 37900 4
+{
+T 47700 37900 5 10 1 1 0 0 1
+netname=GND
+}
+N 47500 35800 49700 35800 4
+{
+T 47600 35800 5 10 1 1 0 0 1
+netname=Arduino_Rotary_switch
+}
+N 39700 35200 41900 35200 4
+{
+T 39800 35200 5 10 1 1 0 0 1
+netname=Arduino_Posn_sensor2
+}
+N 39700 35500 41900 35500 4
+{
+T 39800 35500 5 10 1 1 0 0 1
+netname=Arduino_Posn_sensor1
+}
+N 47500 36700 49700 36700 4
+{
+T 47600 36700 5 10 1 1 0 0 1
+netname=Arduino_Encoder_A
+}
+N 47500 37000 49700 37000 4
+{
+T 47600 37000 5 10 1 1 0 0 1
+netname=Arduino_Encoder_B
+}
+N 42200 34000 39700 34000 4
+{
+T 39900 34000 5 10 1 1 0 0 1
+netname=Arduino_SwitchX
+}
+N 42200 36700 39700 36700 4
+{
+T 39900 36700 5 10 1 1 0 0 1
+netname=Arduino_motor_reset
+}
+N 42300 34600 39700 34600 4
+{
+T 39800 34600 5 10 1 1 0 0 1
+netname=Arduino_ok_led
+}
+N 42200 36400 39700 36400 4
+{
+T 39900 36400 5 10 1 1 0 0 1
+netname=Arduino_motor_fault
+}
+N 39700 36100 42200 36100 4
+{
+T 39900 36100 5 10 1 1 0 0 1
+netname=Arduino_motor_ctrl2
+}
+N 39700 37000 42200 37000 4
+{
+T 39900 37000 5 10 1 1 0 0 1
+netname=Arduino_buz_mute
+}
+N 39700 35800 42200 35800 4
+{
+T 39900 35800 5 10 1 1 0 0 1
+netname=Arduino_motor_ctrl1
+}
+N 49400 43600 49000 43600 4
+N 47500 34000 50000 34000 4
+{
+T 47700 34000 5 10 1 1 0 0 1
+netname=SPI_CLK
+}
+N 39700 34300 42200 34300 4
+{
+T 39900 34300 5 10 1 1 0 0 1
+netname=SPI_MOSI
+}
+N 47500 34900 50000 34900 4
+{
+T 47700 34900 5 10 1 1 0 0 1
+netname=Arduino_LCD_RST
+}
+N 47500 35500 50000 35500 4
+{
+T 47700 35500 5 10 1 1 0 0 1
+netname=Arduino_LCD_DC
+}
+N 47500 35200 49700 35200 4
+{
+T 47600 35200 5 10 1 1 0 0 1
+netname=Arduino_LCD_CE
+}
+C 43900 40700 1 0 0 74HC14-1.sym
+{
+T 43900 40700 5 10 0 1 0 0 1
+footprint=SO14
+T 43900 40700 5 10 0 1 0 0 1
+value=74LV14
+T 44200 40500 5 10 1 1 0 0 1
+refdes=U14
+}
+C 38000 33800 1 0 0 connector15-1.sym
+{
+T 39800 38300 5 10 0 0 0 0 1
+device=CONNECTOR_15
+T 38000 38500 5 10 1 1 0 0 1
+refdes=nano_conn_1
+T 37800 38100 5 10 1 1 0 0 1
+pinlabel=TXD
+T 37800 37800 5 10 1 1 0 0 1
+pinlabel=RXD
+T 37800 37500 5 10 1 1 0 0 1
+pinlabel=RST
+T 37800 37200 5 10 1 1 0 0 1
+pinlabel=GND
+T 37800 36900 5 10 1 1 0 0 1
+pinlabel=D2!
+T 37800 36600 5 10 1 1 0 0 1
+pinlabel=D3!^
+T 37800 36300 5 10 1 1 0 0 1
+pinlabel=D4
+T 37800 36000 5 10 1 1 0 0 1
+pinlabel=D5^
+T 37800 35700 5 10 1 1 0 0 1
+pinlabel=D6^
+T 37800 35400 5 10 1 1 0 0 1
+pinlabel=D7
+T 37800 35100 5 10 1 1 0 0 1
+pinlabel=D8
+T 37800 34800 5 10 1 1 0 0 1
+pinlabel=D9^
+T 37800 34500 5 10 1 1 0 0 1
+pinlabel=D10^
+T 37200 34200 5 10 1 1 0 0 1
+pinlabel=MOSI_D11^
+T 37200 33900 5 10 1 1 0 0 1
+pinlabel=MISO_D12
+T 38000 33800 5 10 0 1 0 0 1
+footprint=JUMPER15
+}
+C 45800 33800 1 0 0 connector15-1.sym
+{
+T 47600 38300 5 10 0 0 0 0 1
+device=CONNECTOR_15
+T 45800 38500 5 10 1 1 0 0 1
+refdes=nano_conn_2
+T 45600 38100 5 10 1 1 0 0 1
+pinlabel=VIN
+T 45600 37800 5 10 1 1 0 0 1
+pinlabel=GND
+T 45600 37500 5 10 1 1 0 0 1
+pinlabel=RST
+T 45600 37200 5 10 1 1 0 0 1
+pinlabel=5V
+T 45600 36900 5 10 1 1 0 0 1
+pinlabel=A7
+T 45600 36600 5 10 1 1 0 0 1
+pinlabel=A6
+T 45600 36300 5 10 1 1 0 0 1
+pinlabel=SCL
+T 45600 36000 5 10 1 1 0 0 1
+pinlabel=SDA
+T 45600 35700 5 10 1 1 0 0 1
+pinlabel=A3
+T 45600 35400 5 10 1 1 0 0 1
+pinlabel=A2
+T 45600 35100 5 10 1 1 0 0 1
+pinlabel=A1
+T 45600 34800 5 10 1 1 0 0 1
+pinlabel=A0
+T 45600 34500 5 10 1 1 0 0 1
+pinlabel=AREF
+T 45600 34200 5 10 1 1 0 0 1
+pinlabel=3V3
+T 45200 33900 5 10 1 1 0 0 1
+pinlabel=SCK_D13
+T 45800 33800 5 10 0 1 0 0 1
+footprint=JUMPER15
+}
+N 52800 47000 50600 47000 4
+{
+T 50700 47000 5 10 1 1 0 0 1
+netname=Arduino_free_pin
+}
+N 42200 34900 39700 34900 4
+{
+T 39900 34900 5 10 1 1 0 0 1
+netname=Arduino_free_pin
+}
+N 32300 45800 34800 45800 4
+{
+T 32500 45800 5 10 1 1 0 0 1
+netname=Arduino_LCD_CE
+}
+N 32300 45500 34500 45500 4
+{
+T 32500 45500 5 10 1 1 0 0 1
+netname=Arduino_LCD_DC
+}
+N 32300 45200 34800 45200 4
+{
+T 32500 45200 5 10 1 1 0 0 1
+netname=Arduino_LCD_RST
+}
+N 50500 48500 52800 48500 4
+{
+T 50700 48500 5 10 1 1 0 0 1
+netname=GND
+}
+N 41400 40900 41400 40800 4
+C 47900 41300 1 270 0 capacitor-1.sym
+{
+T 48600 41100 5 10 0 0 270 0 1
+device=CAPACITOR
+T 47700 40600 5 10 1 1 0 0 1
+refdes=C12
+T 48800 41100 5 10 0 0 270 0 1
+symversion=0.1
+T 48200 40600 5 10 1 1 0 0 1
+value=0.1uF
+T 47900 41300 5 10 0 0 180 0 1
+footprint=0805
+}
+C 48000 40100 1 0 0 gnd-1.sym
+N 50600 47600 52800 47600 4
+{
+T 50700 47600 5 10 1 1 0 0 1
+netname=SPI_MOSI
+}
+C 30600 44100 1 0 0 connector6-1.sym
+{
+T 32400 45900 5 10 0 0 0 0 1
+device=CONNECTOR_6
+T 30600 46100 5 10 1 1 0 0 1
+refdes=uno_conn_2
+T 30600 44100 5 10 0 0 270 0 1
+footprint=JUMPER6
+T 30300 45700 5 10 1 1 0 0 1
+pinlabel=A0
+T 30300 45100 5 10 1 1 0 0 1
+pinlabel=A2
+T 30300 44800 5 10 1 1 0 0 1
+pinlabel=A3
+T 30300 45400 5 10 1 1 0 0 1
+pinlabel=A1
+T 30300 44500 5 10 1 1 0 0 1
+pinlabel=A4
+T 30300 44200 5 10 1 1 0 0 1
+pinlabel=A5
+}
