@@ -1,0 +1,53 @@
+'#LEDs Diodes SMD',,,
+2,'SOD323 / LED0805','LED yellow','D6 D3'
+2,'SOD323 / LED0805','LED red','D5 D4'
+1,'SOD323 / SOD128','1N4148','D7'
+'#ICs  SMD',,,
+1,'SO8','NE555 Timer','U4'
+1,'SOT223','LM2937IMP-5.0 5V regulator','U1'
+1,'HTSSOP28_PPAD','DRV8842PWPR Motor driver','U2'
+1,'SO14','74HC14D Schmitt trigger inverter','U3'
+'#Connectors through hole',,,
+8,'4 pin male connector','wire to board male 2.54mm pitch vertical mount (JST-XH)','POSN2_SNS LED PWM_EXTN SWITCH  KNOB POWER12V MOTOR POSN1_SNS '
+,,,
+1,'JUMPER7 ','7 pin single row berg male vertical mount',' DISPLAY '
+2,'JUMPER15 ','15 pin header single row berg female vertical mount','Arduino Nano plugin slots (component side)'
+4,'JUMPER8','8 pin single row berg male vertical mount','Arduino Uno plugin slots (Solder side)'
+'#Through hole components',,,
+2,'DO-41','1N4007 1A diode','D2 D8'
+1,'DO-201','MUR460 5A diode','D1'
+1,'Radial capacitor','1000/470uF25V 5mm pitch capacitor','C1'
+1,'buzz','7.6mm pitch 5V Active Piezo Buzzer','BZ1'
+'#Resistors SMD 5%',,,
+3,'0805 / 2012 Metric','1k','R18 R21 R26'
+2,'0805 / 2012 Metric','2k2','R11 R12'
+6,'0805 / 2012 Metric','4k7','R2 R4 R5 R7 R8 R9'
+2,'0805 / 2012 Metric','NO_Mount_4.7k','R3 R6'
+9,'0805 / 2012 Metric','10k','R1 R10 R13 R15 R16 R17 R19 R22 R23'
+2,'0805 / 2012 Metric','470k','R25 R24 '
+1,'0805 / 2012 Metric','1M','R20'
+1,'2512 / 6332 Metric','0R022 3W','R14 (Solder side)'
+'#Capacitors SMD 10%',,,
+1,'1206 / 3216 Metric','10uF16V  SMD X7R','C17'
+1,'0805 / 2012 Metric','0.47uF16V  SMD X7R','C6'
+1,'0805 / 2012 Metric','0.1uF35V  SMD X7R','C13'
+15,'0805 / 2012 Metric','0.1uF25V  SMD X7R','C12 C10 C8 C5 C4 C2 C23 C22 C21 C20 C19 C18 C16 C15 C14'
+1,'0805 / 2012 Metric','0.01uF25V  SMD X7R','C11'
+1,'CAP_8_10','8mm dia 100uF25V  SMD Electrolytic','C9'
+2,'CAP_10_10','10mm dia 100/220uF25V  SMD Electrolytic','C3 C7'
+'#External to PCB',,,
+8,'4pin wire to board connector 2.54mm pitch female with 20+ cm wires','JST XH 2.54mm 4pin female',
+1,'LED 3mm Red',,
+1,'Arduino Nano/Uno',,
+1,'OLED .96in display  7 pin SPI',,
+1,'Wiper motor 12V',,
+1,'Knob',,
+1,'8membered flat Dupont cable',,
+1,'2mm dia heat shrink tube',,
+1,'3mm dia heat shrink tube',,
+2,'Optical sensor module',,
+1,'Rotary encoder with switch',,
+1,'Power supply 12V 5A',,
+1,'Power switch  Rocker',,
+1,'3A power plug',,
+1,'3pin power cable 1m',,
