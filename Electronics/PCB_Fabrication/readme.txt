@@ -6,4 +6,4 @@ Solder paste, Solder mask, Silk screen and signal layers (for top and bottom) al
 
 KiCad files in PCB_Layout folder, can be used to modify and regenerate the gerber files.
 
-All drawbacks of v0.1 PCB taken care of but the v1.0 is yet to be manufactured.
+Resolved all limitations of v0.1 PCB, but the v1.0 is yet to be manufactured.
